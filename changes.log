@@ -1,0 +1,23 @@
+commit 1c0e14802d72ec964e1df686c9f6bce4c34ced43
+Author: JuanDelCampoFdz <9402092@alumnos.ufv.es>
+Date:   Mon Dec 30 23:40:35 2024 +0100
+
+    Final commit all functionalities added
+
+commit f55c40ead57b9a627653c801c3f75a861292be42
+Author: JuanDelCampoFdz <9402092@alumnos.ufv.es>
+Date:   Mon Dec 30 00:18:52 2024 +0100
+
+    The contact me page finished, its a simple and intuitive way to contact the owner of the web. Also, the styles.css is added with the styles of the index and contact page
+
+commit 066d828cdce95ccfa1f9a7886f7f3b5a04e261c5
+Author: JuanDelCampoFdz <9402092@alumnos.ufv.es>
+Date:   Mon Dec 30 00:13:53 2024 +0100
+
+     Index done, added a little summery and explanation of the web page
+
+commit 1d3559d3ee2db51989fa8fe009021cb0208c1f2a
+Author: JuanDelCampoFdz <9402092@alumnos.ufv.es>
+Date:   Tue Dec 24 16:47:55 2024 +0100
+
+    Initial commit
