@@ -4,6 +4,9 @@ body {
     padding: 0;
     color: #000;
     background-color: #f8f9fa;
+    padding-bottom: 60px; 
+  
+    
 }
 
 nav {
@@ -98,3 +101,207 @@ section {
 .contact-form button:hover {
     background-color: #0056b3;
 }
+
+a img {
+    width: 50px; 
+    height: auto; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    margin: 0 10px; 
+    display: inline-block;
+}
+
+footer img {
+    height: 70px;
+    width: auto;
+    vertical-align: middle;
+
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+    gap: 20px; 
+}
+
+header img {
+    width: 150px; 
+    height: auto;
+    flex-shrink: 0; 
+    border-radius: 50%; 
+}
+
+header section {
+    flex-grow: 1; 
+}
+
+#cv {
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cv h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#cv h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+#cv p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#cv ul {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+#cv ul li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.small-image {
+    width: 400px; 
+    height: auto; 
+    display: block;
+    margin: 10px auto;
+}
+
+#cv_topic {
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    max-width: 900px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cv_topic h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cv_topic h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+#cv_topic p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#cv_topic ul {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+#cv_topic ul li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#cv_topic img {
+    width: 800px; 
+    height: auto;
+    padding-left: 50px;
+}
+ 
+#cv_net {
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    max-width: 900px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cv_net h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cv_net h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+#cv_net img {
+    width: 50px; 
+    height: auto;
+    padding-left: 50px;
+}
+
+i{
+    font-size: 14px;
+}
+
+#cv_pys {
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+  table.simple-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  table.simple-table thead {
+    background-color: #a3a3a3;
+    color: white;
+  }
+  
+  table.simple-table th,
+  table.simple-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table.simple-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table.simple-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  

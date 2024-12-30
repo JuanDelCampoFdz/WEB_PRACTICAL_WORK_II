@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan del Campo's Blog</title>
-    <link rel="stylesheet" href="C:\Users\juand\WEB_PRACTICAL_WORK_II\docs\CSS\style.css">
+    <link rel="stylesheet" href="..\CSS\style.css">
 </head>
 <body>
 
     <nav>
         <div class="logo">Juan del Campo's Blog</div>
+            
+    <a href="https://www.ufv.es" target="_blank">
+        <img src="../images/cropped-favicon.-pagos (1).png" alt="UFV" />
+      </a>
         <ul class="menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#degree">Degree</a></li>
-            <li><a href="#net">Net</a></li>
-            <li><a href="#topic">Topic</a></li>
+            <li><a href="about.html">About Me </a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="degree.html">Degree</a></li>
+            <li><a href="net.html">Net</a></li>
+            <li><a href="topic.html">Topic</a></li> 
+            <li><a href="../index.html">Menu</a></li>
         </ul>
     </nav>
    
+    
     <section id="contact">
         <form class="contact-form">
             <h2>Contact Me</h2>
@@ -27,12 +33,27 @@
 
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Your email" required>
-
-            <label for="message">message</label>
+          
+            <label for="subject">Subject</label>
+            <input type="subject" id="subject" name="subject" placeholder="Subject" required>
+            
+            <label for="message">Message</label>
             <textarea name="message" id="message"></textarea>
+            
             <button type="button">Submit</button>
         </form>
     </section>
+
+    
+    <footer>
+        <a href="https://github.com" target="_blank">
+            <img src="../images/GitHub-Logo.png" alt="GitHub" />
+          </a>
+        <a href="https://es.linkedin.com" target="_blank">
+            <img src="../images/LinkedIn-Logo.wine.png" alt="LinkedIn" />
+        </a>
+    </footer>
+        
 
 </body>
 </html>
